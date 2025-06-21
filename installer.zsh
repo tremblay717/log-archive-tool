@@ -38,4 +38,5 @@ source ~/.zprofile
 
 # Confirm installation
 echo -e "\nInstallation complete!"
+echo -e "\nReload your shell with : source ~/.zprofile"
 echo -e "Try running:\n  log-archive\n"

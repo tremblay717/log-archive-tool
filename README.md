@@ -24,7 +24,6 @@ git clone https://github.com/your-username/log-archive-tool.git
 cd log-archive-tool
 ```
 
-
 To install the CLI tool, start by making sure the file `log-archive-tool/installer.zsh` is executable
 ```
 chmod +x ./installer.zsh
@@ -56,9 +55,14 @@ To reinstall 1.35, run:
 Ensuring ~/.local/bin is in PATH...
 
 Installation complete!
+
+Reload your shell with : source ~/.zprofile
+
 Try running:
   log-archive
 ```
+
+After installing, you should reload your shell with `source ~/.zprofile`.
 
 The install script does the following: 
 * Creating a log archive directory in your home folder where logs will be stored
